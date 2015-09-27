@@ -13,7 +13,7 @@ The VM uses a bridged network adapter, to simplify access to other devices on th
 
 - Run `vagrant up` in the `unifi-controller-vm` directory
 
-- Open https://<vm-ip>:8443 in a web browser
+- Open https://`vm-ip`:8443 in a web browser
 
 ```bash
 $ vagrant up
