@@ -9,6 +9,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
   config.vm.box_url = "https://cloud-images.ubuntu.com/vagrant/trusty/20150924/trusty-server-cloudimg-amd64-vagrant-disk1.box"
 
   # Use bridged network adapter for VM
+  # http://docs.vagrantup.com/v2/networking/public_network.html
   config.vm.network "public_network"
 
   # Map web interface to localhost - as a convenience
