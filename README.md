@@ -5,6 +5,8 @@ A Vagrantfile for running [Unifi Controller](https://www.ubnt.com/download/unifi
 in a VM, so that you don't have to install a JRE and MongoDB on your main OS.
 
 The VM uses a bridged network adapter, to simplify access to other devices on the network.
+(Assumes the targeted network is VirtualBox's default interface and assumes DHCP - for
+finer-grained control, see the [Vagrant documentation](http://docs.vagrantup.com/v2/networking/public_network.html))
 
 ### Usage
 
