@@ -13,7 +13,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 
   # Map web interface to localhost - as a convenience
   # https://localhost:8443
-  # config.vm.network :forwarded_port, host: 8843, guest: 8443
+  # config.vm.network :forwarded_port, host: 8443, guest: 8443
 
   config.vm.provision "shell", inline: <<-shell
     set -e;
